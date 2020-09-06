@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="" />
+    <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/01remove-duplicates-from-sorted-array/01remove-duplicates-from-sorted-array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/02best-time-to-buy-and-sell-stock-ii/02best-time-to-buy-and-sell-stock-ii.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/03rotate-array/03rotate-array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/04contains-duplicate/04contains-duplicate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/05single-number/05single-number.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/07plue-one/07plue-one.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arithmetic/03string/01reverse-string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/01for/for.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/02waitgroup/waitgroup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/03bobble/BobbleSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/04selectionSort/SelectionSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/05quickSort/quickSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/06singleNum/singleNum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/01longest-substring-without-repeating-characters/01longest-substring-without-repeating-characters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +34,14 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1g8mAT5f4MhcVb8zMCp3yZHUerZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../golang20200117" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,30 +60,69 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
-  <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/01dp">
-    <configuration name="go build bilibili/arithmetic/01dp" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\language_category\golang\bilibili\test" />
+      <recent name="G:\language_category\golang\bilibili\interview" />
+      <recent name="G:\language_category\golang\bilibili\interview\waitgroup" />
+      <recent name="G:\language_category\golang\bilibili\interview\01for" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/02array/09two-sum">
+    <configuration name="go build bilibili/arithmetic/02array/06intersection-of-two-arrays-ii" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/01dp/pyramid.go" />
-      <package value="bilibili/arithmetic/01dp" />
+      <filePath value="$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go" />
+      <package value="bilibili/arithmetic/02array/06intersection-of-two-arrays-ii" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bilibili/arithmetic/02array" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build bilibili/arithmetic/02array/07plue-one" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/pyramid.go" />
-      <package value="bilibili/arithmetic/02array" />
+      <filePath value="$PROJECT_DIR$/arithmetic/02array/07plue-one/07plue-one.go" />
+      <package value="bilibili/arithmetic/02array/07plue-one" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bilibili/arithmetic/02array/08move-zeroes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" />
+      <package value="bilibili/arithmetic/02array/08move-zeroes" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bilibili/arithmetic/02array/09two-sum" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go" />
+      <package value="bilibili/arithmetic/02array/09two-sum" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bilibili/arithmetic/03string" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/arithmetic/03string/01reverse-string.go" />
+      <package value="bilibili/arithmetic/03string" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build bilibili/arithmetic/01dp" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/09two-sum" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/03string" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/08move-zeroes" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/07plue-one" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/06intersection-of-two-arrays-ii" />
       </list>
     </recent_temporary>
   </component>
@@ -72,25 +134,82 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1597525121556">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1598942777225">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597525121556" />
-    <state width="1233" height="274" key="GridCell.Tab.0.bottom" timestamp="1597586701644">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598942777225" />
+    <state x="517" y="238" key="Github.ShareDialog" timestamp="1598190933215">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597586701644" />
-    <state width="1233" height="274" key="GridCell.Tab.0.center" timestamp="1597586701644">
+    <state x="517" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1598190933215" />
+    <state x="467" y="45" key="Github.UntrackedFilesDialog" timestamp="1598190965257">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="274" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597586701644" />
-    <state width="1233" height="274" key="GridCell.Tab.0.left" timestamp="1597586701644">
+    <state x="467" y="45" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598190965257" />
+    <state width="1233" height="51" key="GridCell.Tab.0.bottom" timestamp="1599351696596">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="274" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597586701644" />
-    <state width="1233" height="274" key="GridCell.Tab.0.right" timestamp="1597586701644">
+    <state width="1233" height="51" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599351696596" />
+    <state width="1233" height="51" key="GridCell.Tab.0.center" timestamp="1599351696596">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597586701644" />
+    <state width="1233" height="51" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599351696596" />
+    <state width="1233" height="51" key="GridCell.Tab.0.left" timestamp="1599351696596">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="51" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599351696596" />
+    <state width="1233" height="51" key="GridCell.Tab.0.right" timestamp="1599351696596">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="51" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599351696596" />
+    <state width="1233" height="212" key="GridCell.Tab.1.bottom" timestamp="1599155759344">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="212" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599155759344" />
+    <state width="1233" height="212" key="GridCell.Tab.1.center" timestamp="1599155759344">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="212" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599155759344" />
+    <state width="1233" height="212" key="GridCell.Tab.1.left" timestamp="1599155759344">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="212" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599155759344" />
+    <state width="1233" height="212" key="GridCell.Tab.1.right" timestamp="1599155759344">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1233" height="212" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599155759344" />
+    <state x="157" y="0" key="SettingsEditor" timestamp="1599345409509">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="157" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599345409509" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598190996853">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598190996853" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1599345407718">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1599345407718" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/02array/05single-number/05single-number.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
