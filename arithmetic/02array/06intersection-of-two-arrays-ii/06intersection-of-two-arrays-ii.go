@@ -3,6 +3,7 @@
   date='2020/9/3 21:19'
 */
 
+// https://github.com/anmutu/bilibili
 //# https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
 //
 //# 给定两个数组，编写一个函数来计算它们的交集.
@@ -30,7 +31,7 @@ func main() {
 //2.从两个数组的第一个元素开始比较。
 //3.如果两个数相等，就将这个元素放入我们要定义的res里去。且将两个元素的下标都往后移一步。
 //4.如果两个不相等，则将小的元素对应的下标往后移一下，接着比较。
-//5.注意终止条件是要两个数组都走到他们对应数组的最后一个位置。
+//5.注意终止条件是要某个数组比较完毕了。
 func interSectionOf2Arrays(nums1 []int, nums2 []int) []int {
 	var res []int = []int{}
 	sort.Ints(nums1)
