@@ -23,10 +23,8 @@ func main() {
 	fmt.Println(string(s))
 }
 
-//双指针解决。
 func reverseString(s []byte) {
-	left := 0
-	right := len(s) - 1
+	left, right := 0, len(s)-1
 	for left < right {
 		s[left], s[right] = s[right], s[left]
 		left++

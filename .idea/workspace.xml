@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/01remove-duplicates-from-sorted-array/01remove-duplicates-from-sorted-array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/02best-time-to-buy-and-sell-stock-ii/02best-time-to-buy-and-sell-stock-ii.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/03rotate-array/03rotate-array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/04contains-duplicate/04contains-duplicate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/05single-number/05single-number.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/07plue-one/07plue-one.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arithmetic/03string/01reverse-string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/01for/for.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/02waitgroup/waitgroup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/03bobble/BobbleSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/04selectionSort/SelectionSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/05quickSort/quickSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/06singleNum/singleNum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/01longest-substring-without-repeating-characters/01longest-substring-without-repeating-characters.go" afterDir="false" />
+    <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="others">
+      <change afterPath="$PROJECT_DIR$/basic/001slice/00slice/slices.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/001slice/01slice/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/001slice/02slice/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/001slice/03slice/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/001slice/04slice/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/02slice/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/03isPalindrome/isPalindrome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/04strstr/strStr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/failed/02strstr/02implement-strstr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/failed/10valid-palindrome/10valid-palindrome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/failed/201008/02implement-strstr.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/02array/03rotate-array/03rotate-array.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/03rotate-array/03rotate-array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/03string/01reverse-string.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/03string/01reverse-string/01reverse-string.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/02waitgroup/waitgroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/02waitgroup/waitgroup.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,20 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/anmutu/bilibili" />
+      </set>
+    </option>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -48,10 +63,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../golang20200117" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,69 +76,73 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\language_category\golang\bilibili\test\failed\201008" />
+      <recent name="G:\language_category\golang\bilibili\arithmetic\03string\01reverse-string" />
+      <recent name="G:\language_category\golang\bilibili\test\failed\02strstr" />
+      <recent name="G:\language_category\golang\bilibili\test\failed\10valid-palindrome" />
+      <recent name="G:\language_category\golang\bilibili\test\failed" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\language_category\golang\bilibili\test" />
-      <recent name="G:\language_category\golang\bilibili\interview" />
-      <recent name="G:\language_category\golang\bilibili\interview\waitgroup" />
-      <recent name="G:\language_category\golang\bilibili\interview\01for" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/02array/09two-sum">
-    <configuration name="go build bilibili/arithmetic/02array/06intersection-of-two-arrays-ii" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/03string/02implement-strstr">
+    <configuration name="go build bilibili/arithmetic/02array/03rotate-array" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go" />
-      <package value="bilibili/arithmetic/02array/06intersection-of-two-arrays-ii" />
+      <filePath value="$PROJECT_DIR$/arithmetic/02array/03rotate-array/03rotate-array.go" />
+      <package value="bilibili/arithmetic/02array/03rotate-array" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bilibili/arithmetic/02array/07plue-one" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build bilibili/arithmetic/03string (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/07plue-one/07plue-one.go" />
-      <package value="bilibili/arithmetic/02array/07plue-one" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build bilibili/arithmetic/02array/08move-zeroes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="bilibili" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" />
-      <package value="bilibili/arithmetic/02array/08move-zeroes" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build bilibili/arithmetic/02array/09two-sum" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="bilibili" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go" />
-      <package value="bilibili/arithmetic/02array/09two-sum" />
+      <filePath value="$PROJECT_DIR$/arithmetic/03string/02implement-strstr.go" />
+      <package value="bilibili/arithmetic/03string" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build bilibili/arithmetic/03string" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/arithmetic/03string/01reverse-string.go" />
       <package value="bilibili/arithmetic/03string" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build bilibili/arithmetic/03string/02implement-strstr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/arithmetic/03string/02implement-strstr/02implement-strstr.go" />
+      <package value="bilibili/arithmetic/03string/02implement-strstr" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bilibili/test/04strstr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test/04strstr/strStr.go" />
+      <package value="bilibili/test/04strstr" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/09two-sum" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/03string/02implement-strstr" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/03string (1)" />
         <item itemvalue="Go Build.go build bilibili/arithmetic/03string" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/08move-zeroes" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/07plue-one" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/06intersection-of-two-arrays-ii" />
+        <item itemvalue="Go Build.go build bilibili/test/04strstr" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/03rotate-array" />
       </list>
     </recent_temporary>
   </component>
@@ -130,10 +150,29 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="others" />
+    <MESSAGE value="优化" />
+    <MESSAGE value="验证字符串是否是回文串。" />
+    <MESSAGE value="用golang实现strStr" />
+    <option name="LAST_COMMIT_MESSAGE" value="用golang实现strStr" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1602106240212">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602106240212" />
+    <state width="438" height="466" key="DebuggerActiveHint" timestamp="1601048791908">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="438" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1601048791908" />
+    <state x="122" y="50" key="DiffContextDialog" timestamp="1599405381361">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="122" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1599405381361" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1598942777225">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -146,50 +185,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="467" y="45" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598190965257" />
-    <state width="1233" height="51" key="GridCell.Tab.0.bottom" timestamp="1599351696596">
+    <state width="1233" height="210" key="GridCell.Tab.0.bottom" timestamp="1602105214928">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="51" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599351696596" />
-    <state width="1233" height="51" key="GridCell.Tab.0.center" timestamp="1599351696596">
+    <state width="1233" height="210" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602105214928" />
+    <state width="1233" height="210" key="GridCell.Tab.0.center" timestamp="1602105214928">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="51" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599351696596" />
-    <state width="1233" height="51" key="GridCell.Tab.0.left" timestamp="1599351696596">
+    <state width="1233" height="210" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602105214928" />
+    <state width="1233" height="210" key="GridCell.Tab.0.left" timestamp="1602105214927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="51" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599351696596" />
-    <state width="1233" height="51" key="GridCell.Tab.0.right" timestamp="1599351696596">
+    <state width="1233" height="210" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602105214927" />
+    <state width="1233" height="210" key="GridCell.Tab.0.right" timestamp="1602105214928">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="51" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599351696596" />
-    <state width="1233" height="212" key="GridCell.Tab.1.bottom" timestamp="1599155759344">
+    <state width="1233" height="210" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602105214928" />
+    <state width="1233" height="210" key="GridCell.Tab.1.bottom" timestamp="1602105147080">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="212" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599155759344" />
-    <state width="1233" height="212" key="GridCell.Tab.1.center" timestamp="1599155759344">
+    <state width="1233" height="210" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602105147080" />
+    <state width="1233" height="210" key="GridCell.Tab.1.center" timestamp="1602105147080">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="212" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599155759344" />
-    <state width="1233" height="212" key="GridCell.Tab.1.left" timestamp="1599155759344">
+    <state width="1233" height="210" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602105147080" />
+    <state width="1233" height="210" key="GridCell.Tab.1.left" timestamp="1602105147079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="212" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599155759344" />
-    <state width="1233" height="212" key="GridCell.Tab.1.right" timestamp="1599155759344">
+    <state width="1233" height="210" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602105147079" />
+    <state width="1233" height="210" key="GridCell.Tab.1.right" timestamp="1602105147080">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1233" height="212" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599155759344" />
-    <state x="157" y="0" key="SettingsEditor" timestamp="1599345409509">
+    <state width="1233" height="210" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602105147080" />
+    <state x="157" y="0" key="SettingsEditor" timestamp="1599699067751">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="157" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599345409509" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598190996853">
+    <state x="157" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599699067751" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602106670933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598190996853" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1599345407718">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602106670933" />
+    <state x="442" y="238" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599426274124">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1599345407718" />
+    <state x="442" y="238" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599426274124" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1600746358223">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600746358223" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -201,15 +244,65 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go</url>
-          <line>28</line>
+          <line>26</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go</url>
-          <line>18</line>
+          <line>17</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/failed/10valid-palindrome/10valid-palindrome.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/03isPalindrome/isPalindrome.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/03isPalindrome/isPalindrome.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/02array/10valid-palindrome/10valid-palindrome.go</url>
+          <line>36</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go</url>
+          <line>108</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/02array/03rotate-array/03rotate-array.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/04strstr/strStr.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/03string/02implement-strstr/02implement-strstr.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="long[p:p+length]" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
