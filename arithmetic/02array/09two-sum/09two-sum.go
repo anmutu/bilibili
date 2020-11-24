@@ -18,26 +18,29 @@ package main
 import "fmt"
 
 func main() {
-	var nums []int = []int{2, 7, 11, 15}
+	var nums []int = []int{2, 11, 15, 7}
 	target := 9
-	res := twoSum(nums, target)
+	res := twoSum1(nums, target)
 	fmt.Println(res)
+	fmt.Println(twoSum2(nums, target))
+	fmt.Println(twoSum3(nums, target))
+
 }
 
 //暴力解法
-//func twoSum(nums []int,target int)[]int{
-//	for i:=0;i<len(nums);i++{
-//		for j:=i+1;j<len(nums);j++{
-//			if nums[i]+nums[j]==target{
-//				return []int{i,j}
-//			}
-//		}
-//	}
-//	return nil
-//}
+func twoSum1(nums []int, target int) []int {
+	for i := 0; i < len(nums); i++ {
+		for j := i + 1; j < len(nums); j++ {
+			if nums[i]+nums[j] == target {
+				return []int{i, j}
+			}
+		}
+	}
+	return nil
+}
 
 //对撞指针
-func twoSum(nums []int, target int) []int {
+func twoSum2(nums []int, target int) []int {
 	l := 0
 	r := len(nums) - 1
 	for l < r {
@@ -52,21 +55,33 @@ func twoSum(nums []int, target int) []int {
 	return []int{l, r}
 }
 
-//func twoSum(nums []int, target int) []int {
-//	// 申请map
-//	m := make(map[int]int)
-//	// 遍历
-//	for index, num := range nums {
-//		// 到map中去查找目标2
-//		key, ok := m[target - num]
-//		// 找不到直接保存目标2
-//		if !ok{
-//			m[num] = index
-//		}else {
-//			// 找到直接返回目标1、目标2的下标
-//			return []int{index, key}
-//		}
-//	}
-//	return nil
-//}
-//
+//map
+//nums = [2, 7, 11, 15]
+//数组
+//value 下标
+//  2   0
+//  7   1
+//  11  2
+//  15  3
+//想办法把这个转换成map。然后再map里面去寻找。
+//map
+//key value
+// 2   0
+// 7   1
+// 11  2
+// 15 3
+func twoSum3(nums []int, target int) []int {
+	hashTable := make(map[int]int)
+	for index, value := range nums {
+		if p, ok := hashTable[target-value]; ok {
+			return []int{p, index}
+		}
+		hashTable[value] = index
+	}
+	//for k,v :=range hashTable{
+	//	if p,ok:=hashTable[target-k];ok{
+	//		return []int{p,v}
+	//	}
+	//}
+	return nil
+}
