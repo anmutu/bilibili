@@ -19,14 +19,13 @@ func main() {
 	var nums []int = []int{0, 1, 0, 3, 12}
 	res := moveZeros(nums)
 	fmt.Println(res)
-
 }
 
 //删除追加法。注意golang相关的写法。
 func moveZeros(nums []int) []int {
-	for i := 0; i < len(nums); i++ {
+	for i := 0; i < len(nums)-1; i++ {
 		if nums[i] == 0 {
-			nums = append(nums[:i], nums[i+1:]...)
+			nums = append(nums[:i], nums[i+1:]...)//删除的写法。
 			nums = append(nums, 0)
 		}
 	}
@@ -46,5 +45,4 @@ func moveZeros(nums []int) []int {
 //			right+=1
 //		}
 //	}
-//
 //}

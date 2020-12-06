@@ -28,6 +28,9 @@ func main() {
 	fmt.Println(res)
 }
 
+//第一步，把要移走的数据拿出来。[5,6,7]
+//第三步，把剩下的数据拿出来。[1,2,3,4]
+//第三步，就是把这两个数据合起来不就是答案了吗？
 func rotateArray(nums []int, k int) []int {
 	temp := nums[len(nums)-k:]
 	nums = nums[0 : len(nums)-k]
