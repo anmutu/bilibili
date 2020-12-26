@@ -22,34 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="add url">
-      <change afterPath="$PROJECT_DIR$/arithmetic/leetcode/003longest-substring-without-repeating-characters/003lengthOfLongestSubstring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/001slice/00slice/slices.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/001slice/01slice/slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/001slice/02slice/slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/001slice/03slice/slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/001slice/04slice/slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/003/003.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/02slice/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/03isPalindrome/isPalindrome.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/04strstr/strStr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/15three-sum/threesum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/20202018/053maximum-subarray/maximum-subarray.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/20202018/11minimum-size-subarray-sum/11minimum-size-subarray-sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/20202018/209minimum-size-subarray-sum/minimum-size-subarray-sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/failed/02strstr/02implement-strstr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/failed/10valid-palindrome/10valid-palindrome.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/failed/201008/02implement-strstr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/failed/20201101/three-sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/failed/2020110102/three-sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/failed/2020110103/threeSum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/failed/2020110104/threeSum.go" afterDir="false" />
+    <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="leetcode286">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/01dp/pyramid.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/01dp/pyramid.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/02array/03rotate-array/03rotate-array.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/03rotate-array/03rotate-array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/leetcode/001two-sum/twoSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/leetcode/001two-sum/twoSum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/02waitgroup/waitgroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/02waitgroup/waitgroup.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +66,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gin-vue-admin/gin-vue-admin/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../golang20200117" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -210,88 +185,11 @@
     <MESSAGE value="twosum用map实现." />
     <MESSAGE value="two-sum" />
     <MESSAGE value="add url" />
-    <option name="LAST_COMMIT_MESSAGE" value="add url" />
+    <MESSAGE value="leetcode286" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode286" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1605461115941">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1605461115941" />
-    <state width="438" height="466" key="DebuggerActiveHint" timestamp="1605331719882">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="438" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1605331719882" />
-    <state x="122" y="50" key="DiffContextDialog" timestamp="1599405381361">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="122" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1599405381361" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606674301116">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606674301116" />
-    <state x="517" y="238" key="Github.ShareDialog" timestamp="1598190933215">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="517" y="238" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1598190933215" />
-    <state x="467" y="45" key="Github.UntrackedFilesDialog" timestamp="1598190965257">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="467" y="45" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598190965257" />
-    <state width="1233" height="2" key="GridCell.Tab.0.bottom" timestamp="1606228866023">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1233" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606228866023" />
-    <state width="1233" height="2" key="GridCell.Tab.0.center" timestamp="1606228866023">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1233" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606228866023" />
-    <state width="1233" height="2" key="GridCell.Tab.0.left" timestamp="1606228866023">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1233" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606228866023" />
-    <state width="1233" height="2" key="GridCell.Tab.0.right" timestamp="1606228866023">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1233" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606228866023" />
-    <state width="1233" height="145" key="GridCell.Tab.1.bottom" timestamp="1606223417236">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1233" height="145" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606223417236" />
-    <state width="1233" height="145" key="GridCell.Tab.1.center" timestamp="1606223417236">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1233" height="145" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606223417236" />
-    <state width="1233" height="145" key="GridCell.Tab.1.left" timestamp="1606223417236">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1233" height="145" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606223417236" />
-    <state width="1233" height="145" key="GridCell.Tab.1.right" timestamp="1606223417236">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1233" height="145" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606223417236" />
-    <state x="447" y="41" key="RollbackChangesDialog" timestamp="1603029708045">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="447" y="41" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1603029708045" />
-    <state x="157" y="0" key="SettingsEditor" timestamp="1599699067751">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="157" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599699067751" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606229045781">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606229045781" />
-    <state x="442" y="238" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599426274124">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="442" y="238" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599426274124" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1600746358223">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600746358223" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
