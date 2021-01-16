@@ -22,8 +22,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="leetcode286">
+    <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/channel/001/channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/001/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/002/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/003/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/004/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/005/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/006/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/007/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/008/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/defer/009/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/escape/escape.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/interface/001/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/interface/002/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/interface/003/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/interface/004/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/waitgroup/001/waitgroup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/golang/waitgroup/002/waitgroup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/du_mirco/proto/dear/dear.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/leetcode/001two-sum/twoSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/leetcode/001two-sum/twoSum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/leetcode/003longest-substring-without-repeating-characters/003lengthOfLongestSubstring.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/leetcode/003longest-substring-without-repeating-characters/003lengthOfLongestSubstring.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/003/003.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/003/003.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/15three-sum/threesum.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/15three-sum/threesum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/failed/2020110103/threeSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/failed/2020110103/threeSum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/failed/2020110104/threeSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/failed/2020110104/threeSum.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +96,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../golang20200117" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,19 +105,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\language_category\golang\bilibili\test\003" />
-      <recent name="G:\language_category\golang\bilibili\arithmetic" />
-      <recent name="G:\language_category\golang\bilibili\test\failed\2020110104" />
-      <recent name="G:\language_category\golang\bilibili\test\failed\2020110103" />
-      <recent name="G:\language_category\golang\bilibili\arithmetic\02array\09two-sum" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\language_category\golang\bilibili\test\20202018" />
       <recent name="G:\language_category\golang\bilibili\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\language_category\golang\bilibili\golang\waitgroup\001" />
+      <recent name="G:\language_category\golang\bilibili\golang\interface\003" />
+      <recent name="G:\language_category\golang\bilibili\golang\interface\001" />
+      <recent name="G:\language_category\golang\bilibili\test\003" />
+      <recent name="G:\language_category\golang\bilibili\arithmetic" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/02array/08move-zeroes">
@@ -103,39 +130,39 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bilibili/arithmetic/02array/09two-sum" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build bilibili/golang/channel/001" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go" />
-      <package value="bilibili/arithmetic/02array/09two-sum" />
+      <filePath value="$PROJECT_DIR$/golang/channel/001/channel.go" />
+      <package value="bilibili/golang/channel/001" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bilibili/arithmetic/leetcode/001two-sum" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build bilibili/golang/defer/009" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/leetcode/001two-sum/twoSum.go" />
-      <package value="bilibili/arithmetic/leetcode/001two-sum" />
+      <filePath value="$PROJECT_DIR$/golang/defer/009/defer.go" />
+      <package value="bilibili/golang/defer/009" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bilibili/arithmetic/leetcode/003longest-substring-without-repeating-characters" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build bilibili/golang/waitgroup" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/leetcode/003longest-substring-without-repeating-characters/003lengthOfLongestSubstring.go" />
-      <package value="bilibili/arithmetic/leetcode/003longest-substring-without-repeating-characters" />
+      <filePath value="$PROJECT_DIR$/golang/waitgroup/waitgroup.go" />
+      <package value="bilibili/golang/waitgroup" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bilibili/test/003" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build bilibili/golang/waitgroup/002" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/test/003/003.go" />
-      <package value="bilibili/test/003" />
+      <filePath value="$PROJECT_DIR$/golang/waitgroup/002/waitgroup.go" />
+      <package value="bilibili/golang/waitgroup/002" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -151,10 +178,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build bilibili/arithmetic/02array/08move-zeroes" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/09two-sum" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/leetcode/001two-sum" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/leetcode/003longest-substring-without-repeating-characters" />
-        <item itemvalue="Go Build.go build bilibili/test/003" />
+        <item itemvalue="Go Build.go build bilibili/golang/waitgroup/002" />
+        <item itemvalue="Go Build.go build bilibili/golang/waitgroup" />
+        <item itemvalue="Go Build.go build bilibili/golang/channel/001" />
+        <item itemvalue="Go Build.go build bilibili/golang/defer/009" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +213,8 @@
     <MESSAGE value="two-sum" />
     <MESSAGE value="add url" />
     <MESSAGE value="leetcode286" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode286" />
+    <MESSAGE value="录制slice视频的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="录制slice视频的代码" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -203,11 +231,6 @@
           <url>file://$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go</url>
           <line>26</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go</url>
@@ -276,7 +299,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/test/003/003.go</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
