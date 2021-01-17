@@ -20,11 +20,20 @@ import "fmt"
 
 func main() {
 	var nums []int = []int{2, 0, 2, 1, 1, 0}
-	setColors(nums)
+	sortColor(nums)
 	fmt.Println(nums)
 }
 
-func setColors(nums []int) {
+//需要满足左边的都是0。中间的都是1。最后面的都是2。
+//定义两个指针。left和right。
+//arr[0:left]==0。
+//arr[left+1:i-1]==1。
+//arr[right:n-1]==2。
+//1.如果当前元素等于1，那么继续往后遍历就可以了。
+//2.如果当前元素等于0，那么就需要把nums[left+1]与nums[i]交换位置。然后i往后移。
+//3.如果当前元素等于2，那么right--,然后nums[right]与nums[i]交换位置。
+//特别注意：第3种情况，i不用往后移，也就是++,因为这个nums[right]是没有遍历过的。
+func sortColor(nums []int) {
 	left, right := -1, len(nums)
 	for i := 0; i < right; {
 		if nums[i] == 1 {
