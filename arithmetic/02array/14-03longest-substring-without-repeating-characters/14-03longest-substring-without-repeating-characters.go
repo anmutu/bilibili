@@ -24,12 +24,20 @@ func main() {
 	fmt.Println(lengthOfLongestSubstring(s))
 }
 
+//先定义window。
+//left和right的。window[left:right]
+//right一直往右走
+//1.如果后面的值不包含在window中，那么right++。
+//2.如果后面的值包含在window中，那么就要取新的window了。
+//2a=> left的索引取整体字符串索引后面的一个，即index+1(这里的index指整体的字符串中的index）
+//2b=> right++.
+//每次找到一个合适的窗口后算出其大小，用max函数返回其最大值。
 func lengthOfLongestSubstring(s string) int {
 	left, right := 0, 0
 	window := s[left:right]
 	res := 0
 	for ; right < len(s); right++ {
-		if index := strings.IndexByte(window, s[right]); index != -1 { //表示存在
+		if index := strings.IndexByte(window, s[right]); index != -1 {
 			left += index + 1
 		}
 		window = s[left : right+1]
