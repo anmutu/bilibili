@@ -28,12 +28,16 @@ func main() {
 	s := "cbaebabacd"
 	p := "abc"
 	fmt.Println(findAnagrams(s, p))
+
+	s1 := "abab"
+	p1 := "ab"
+	fmt.Println(findAnagrams(s1, p1))
 }
 
 func findAnagrams(s string, p string) []int {
 	left, right := 0, 0
 	var res []int
-	for right < len(s) {
+	for right < len(s)+1 {
 		window := s[left:right]
 		if right-left < len(p) {
 			right++
