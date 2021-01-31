@@ -5,7 +5,9 @@
 */
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //链接：https://leetcode-cn.com/problems/valid-anagram
 //给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
@@ -14,7 +16,7 @@ import "fmt"
 //输出: true
 
 /*
-用map纪录单词出现的次数，然后比较map是否相等。
+用数组纪录单词出现的次数，然后比较数组是否相等。
 如何去存次单词出现的次数？
 既然都是小写。
 'a'的ASCII的值是97。
@@ -37,12 +39,12 @@ func isAnagram(s string, t string) bool {
 		return false
 	}
 	//m1,m2:=[26]int{},[26]int{}
-	var m1, m2 [26]int
+	var c1, c2 [26]int
 	for _, v := range s {
-		m1[v-'a']++
+		c1[v-'a']++
 	}
 	for _, v := range t {
-		m2[v-'a']++
+		c2[v-'a']++
 	}
-	return m1 == m2
+	return c1 == c2
 }
