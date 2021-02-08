@@ -25,7 +25,7 @@ func main() {
 func moveZeros(nums []int) []int {
 	for i := 0; i < len(nums)-1; i++ {
 		if nums[i] == 0 {
-			nums = append(nums[:i], nums[i+1:]...)//删除的写法。
+			nums = append(nums[:i], nums[i+1:]...) //删除的写法。
 			nums = append(nums, 0)
 		}
 	}
