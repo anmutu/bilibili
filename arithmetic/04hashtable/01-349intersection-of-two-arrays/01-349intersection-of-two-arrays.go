@@ -3,6 +3,17 @@
   date='2021/2/9 17:32'
   github='https://github.com/anmutu'
 */
+
+//给定两个数组，编写一个函数来计算它们的交集。
+//url:https://leetcode-cn.com/problems/intersection-of-two-arrays
+//示例 1:
+//输入:nums1 = [1,2,2,1], nums2 = [2,2]
+//输出:[2]
+//示例 2:
+//输入:nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+//输出:[9,4]
+//注意:输出结果中的每个元素一定是唯一的。
+
 package main
 
 import (
@@ -48,12 +59,13 @@ func interSectionOf2Arrays(nums1 []int, nums2 []int) []int {
 	return res
 }
 
-//定义一个map去收集nums1里的元素，以其值为key,如果有则其对应的value为true。需要遍历一次。
-//遍历nums2，以其值为map的key判断是否在map中存在。
-//如果存在则把值加入到返回值中且把加入后把map里这个对应的值改为false,这样可去重。
+//定义一个map去收集nums1里的元素。
+//存在的话，则以这个数据对应元素的值当map的key，给其对应的value为true。这里是需要遍历一次的。
+//遍历另外一个数组，如果map以nums对应元素为key是为true的话，那么就把这个值加入到我们的结果集当中。
+//注意：加入后还需要把这个对应的map改为false。
 func interSectionOf2ArraysMap(nums1 []int, nums2 []int) []int {
-	hash := make(map[int]bool)
 	res := make([]int, 0)
+	hash := make(map[int]bool)
 	for _, v := range nums1 {
 		hash[v] = true
 	}
