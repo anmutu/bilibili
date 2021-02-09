@@ -23,16 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/arithmetic/04hashtable/01-349intersection-of-two-arrays/01-349intersection-of-two-arrays.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/golang/channel/001/channel.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/golang/waitgroup/001/waitgroup.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/golang/waitgroup/002/waitgroup.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/du_mirco/proto/dear/dear.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/08move-zeroes/08move-zeroes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/02array/09two-sum/09two-sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/09-001two-sum/09two-sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/02array/10valid-palindrome/10valid-palindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/10-125valid-palindrome/10valid-palindrome.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/02array/11minimum-size-subarray-sum/11minimum-size-subarray-sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/11-209minimum-size-subarray-sum/11-209minimum-size-subarray-sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/02array/286/missing-number.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/00-286/missing-number.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06-349intersection-of-two-arrays-ii.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arithmetic/leetcode/001two-sum/twoSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/leetcode/001two-sum/twoSum.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arithmetic/leetcode/003longest-substring-without-repeating-characters/003lengthOfLongestSubstring.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/leetcode/003longest-substring-without-repeating-characters/003lengthOfLongestSubstring.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/003/003.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/003/003.go" afterDir="false" />
@@ -113,23 +110,13 @@
       <recent name="G:\language_category\golang\bilibili\golang\interface\001" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/02array/15-438find-all-anagrams-in-a-string">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="bilibili" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <package value="bilibili" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build bilibili/arithmetic/02array/14-03longest-substring-without-repeating-characters" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/02array/06-350intersection-of-two-arrays-ii">
+    <configuration name="go build bilibili/arithmetic/02array/06-350intersection-of-two-arrays-ii" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/14-03longest-substring-without-repeating-characters/14-03longest-substring-without-repeating-characters.go" />
-      <package value="bilibili/arithmetic/02array/14-03longest-substring-without-repeating-characters" />
+      <filePath value="$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go" />
+      <package value="bilibili/arithmetic/02array/06-350intersection-of-two-arrays-ii" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -151,12 +138,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bilibili/test/003" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build bilibili/arithmetic/04hashtable/01-349intersection-of-two-arrays" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/test/003/003.go" />
-      <package value="bilibili/test/003" />
+      <filePath value="$PROJECT_DIR$/arithmetic/04hashtable/01-349intersection-of-two-arrays/01-349intersection-of-two-arrays.go" />
+      <package value="bilibili/arithmetic/04hashtable/01-349intersection-of-two-arrays" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -178,24 +165,13 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="bilibili" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="bilibili" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/06-350intersection-of-two-arrays-ii" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/04hashtable/01-349intersection-of-two-arrays" />
         <item itemvalue="Go Build.go build bilibili/arithmetic/02array/15-438find-all-anagrams-in-a-string" />
         <item itemvalue="Go Build.go build bilibili/arithmetic/03string/03-242valid-anagram" />
         <item itemvalue="Go Build.go build bilibili/test/424" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/14-03longest-substring-without-repeating-characters" />
-        <item itemvalue="Go Build.go build bilibili/test/003" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +215,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="438找出所有异位词。滑动窗口。" />
     <MESSAGE value="fix值为&quot;abab&quot;和&quot;ab&quot;时的边界问题。（只返回[0,1])。" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix值为&quot;abab&quot;和&quot;ab&quot;时的边界问题。（只返回[0,1])。" />
+    <MESSAGE value="算法目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法目录" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -258,7 +235,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go</url>
+          <url>file://$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06-349intersection-of-two-arrays-ii.go</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -324,7 +301,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/test/003/003.go</url>
-          <line>41</line>
+          <line>37</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
@@ -346,6 +323,11 @@
           <url>file://$PROJECT_DIR$/arithmetic/02array/15-438find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.go</url>
           <line>45</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/arithmetic/04hashtable/01-349intersection-of-two-arrays/01-349intersection-of-two-arrays.go</url>
+          <line>56</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

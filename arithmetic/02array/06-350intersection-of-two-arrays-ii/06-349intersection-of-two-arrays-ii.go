@@ -11,6 +11,8 @@
 //# example
 //# 输入: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
 //# 输出: [4,9]
+//输入：nums1 = [1,2,2,1], nums2 = [2,2]
+//输出：[2,2]
 
 package main
 
@@ -22,18 +24,21 @@ import (
 func main() {
 	var nums1 []int = []int{4, 9, 5}
 	var nums2 []int = []int{9, 4, 9, 8, 4}
-	res := interSectionOf2Arrays(nums1, nums2)
-	fmt.Println(res)
+	fmt.Println(interSectionOf2Arrays(nums1, nums2))
+
+	var n1 []int = []int{1, 2, 2, 1}
+	var n2 []int = []int{2, 2}
+	fmt.Println(interSectionOf2Arrays(n1, n2))
 }
 
-//双指针解法
+//双指针解法(用排序和双指针解决）。
 //1.先将两个数组排序。
 //2.从两个数组的第一个元素开始比较。
 //3.如果两个数相等，就将这个元素放入我们要定义的res里去。且将两个元素的下标都往后移一步。
 //4.如果两个不相等，则将小的元素对应的下标往后移一下，接着比较。
 //5.注意终止条件是要某个数组比较完毕了。
 func interSectionOf2Arrays(nums1 []int, nums2 []int) []int {
-	var res []int = []int{}
+	var res []int
 	sort.Ints(nums1)
 	sort.Ints(nums2)
 	p1 := 0
@@ -51,5 +56,3 @@ func interSectionOf2Arrays(nums1 []int, nums2 []int) []int {
 	}
 	return res
 }
-
-//另外，可以考虑下，如果一个nums很短，另外一个nums特别长，应该怎么处理会比较好一点。
