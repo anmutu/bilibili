@@ -3,6 +3,14 @@
   date='2021/2/10 1:35'
   github='https://github.com/anmutu'
 */
+
+//# 给定一个整数数组 nums和一个目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
+//# 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。
+//# example
+//# 给定 nums = [2, 7, 11, 15], target = 9
+//# 因为 nums[0] + nums[1] = 2 + 7 = 9
+//# 所以返回 [0, 1]
+
 package main
 
 import "fmt"
@@ -11,20 +19,19 @@ func main() {
 	var nums []int = []int{2, 11, 15, 7}
 	target := 9
 	fmt.Println(twoSum(nums, target))
-
-	//会覆盖情况的举例。
+	fmt.Println("+++++++++++++++++++")
 	var n1 = []int{4, 2, 4, 7}
 	t1 := 8
 	fmt.Println(twoSum1(n1, t1))
+	fmt.Println("+++++++++++++++++++")
 	fmt.Println(twoSum(n1, t1))
 }
 
-//查找map表设计：以数组value为key，index为值。
-//判断key为target-value的值是否存在于map中。
-//如果存在则将此时的索引和这个值返回。
-//注意：需要查找表需要动态往后增大。
-func twoSum(nums []int, target int) []int {
-	var res []int
+//设计查找表：以数组的value为key,index为值。
+//在查找表里去找：以target-value的值是否存在于map中。
+//如果在的话那么就找到了，这个索引和相应的值返回就好。
+//注意：查找表是需要动态的增大的。
+func twoSum(nums []int, target int) (res []int) {
 	hash := make(map[int]int)
 	for index, value := range nums {
 		if p, ok := hash[target-value]; ok {
