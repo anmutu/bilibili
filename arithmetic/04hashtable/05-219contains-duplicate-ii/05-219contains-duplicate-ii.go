@@ -5,7 +5,9 @@
 */
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//nums:=[]int{1,2,3,1}
@@ -17,6 +19,7 @@ func main() {
 	n2 := []int{4, 6, 1, 2, 3, 1, 5}
 	k2 := 3
 	fmt.Println(containsNearbyDuplicate(n2, k2))
+	fmt.Println(containsNearbyDuplicate1(n2, k2))
 }
 
 //定义查找表：以数组元素的值为key，存在则设置其value为true。
@@ -33,6 +36,18 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 		if len(hash) > k {
 			fmt.Println("delete", nums[i-k])
 			delete(hash, nums[i-k])
+		}
+	}
+	return false
+}
+
+//暴力搜索法。
+func containsNearbyDuplicate1(nums []int, k int) bool {
+	for i := range nums {
+		for j := i + 1; j <= i+k && j < len(nums); j++ {
+			if nums[i] == nums[j] {
+				return true
+			}
 		}
 	}
 	return false
