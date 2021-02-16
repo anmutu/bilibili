@@ -23,13 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02f4793e-c2b8-4f4a-9247-38fcc5875c68" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/arithmetic/04hashtable/01-349intersection-of-two-arrays/01-349intersection-of-two-arrays.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/golang/channel/001/channel.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/golang/waitgroup/001/waitgroup.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/golang/waitgroup/002/waitgroup.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/du_mirco/proto/dear/dear.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/02array/06intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06-349intersection-of-two-arrays-ii.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06-350intersection-of-two-arrays-ii.go" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06-350intersection-of-two-arrays-ii.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arithmetic/leetcode/001two-sum/twoSum.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/leetcode/001two-sum/twoSum.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arithmetic/leetcode/003longest-substring-without-repeating-characters/003lengthOfLongestSubstring.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/leetcode/003longest-substring-without-repeating-characters/003lengthOfLongestSubstring.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/003/003.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/003/003.go" afterDir="false" />
@@ -62,6 +61,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -110,40 +110,49 @@
       <recent name="G:\language_category\golang\bilibili\golang\interface\001" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/02array/06-350intersection-of-two-arrays-ii">
-    <configuration name="go build bilibili/arithmetic/02array/06-350intersection-of-two-arrays-ii" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="bilibili" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06intersection-of-two-arrays-ii.go" />
-      <package value="bilibili/arithmetic/02array/06-350intersection-of-two-arrays-ii" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build bilibili/arithmetic/02array/15-438find-all-anagrams-in-a-string" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="bilibili" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/02array/15-438find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.go" />
-      <package value="bilibili/arithmetic/02array/15-438find-all-anagrams-in-a-string" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build bilibili/arithmetic/03string/03-242valid-anagram" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="bilibili" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arithmetic/03string/03-242valid-anagram/valid-anagram.go" />
-      <package value="bilibili/arithmetic/03string/03-242valid-anagram" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build bilibili/arithmetic/04hashtable/05-219contains-duplicate-ii">
     <configuration name="go build bilibili/arithmetic/04hashtable/01-349intersection-of-two-arrays" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bilibili" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/arithmetic/04hashtable/01-349intersection-of-two-arrays/01-349intersection-of-two-arrays.go" />
       <package value="bilibili/arithmetic/04hashtable/01-349intersection-of-two-arrays" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bilibili/arithmetic/04hashtable/02-350intersection-of-two-arrays-ii" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/arithmetic/04hashtable/02-350intersection-of-two-arrays-ii/02-350intersection-of-two-arrays-ii.go" />
+      <package value="bilibili/arithmetic/04hashtable/02-350intersection-of-two-arrays-ii" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bilibili/arithmetic/04hashtable/03-001two-sum" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/arithmetic/04hashtable/03-001two-sum/03-001two-sum.go" />
+      <package value="bilibili/arithmetic/04hashtable/03-001two-sum" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bilibili/arithmetic/04hashtable/04-454-4sum-ii" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/arithmetic/04hashtable/04-454-4sum-ii/04-454-4sum-ii.go" />
+      <package value="bilibili/arithmetic/04hashtable/04-454-4sum-ii" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build bilibili/arithmetic/04hashtable/05-219contains-duplicate-ii" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bilibili" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/arithmetic/04hashtable/05-219contains-duplicate-ii/05-219contains-duplicate-ii.go" />
+      <package value="bilibili/arithmetic/04hashtable/05-219contains-duplicate-ii" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -156,22 +165,13 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bilibili/test/424" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="bilibili" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/test/424/isAnagram.go" />
-      <package value="bilibili/test/424" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/06-350intersection-of-two-arrays-ii" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/04hashtable/05-219contains-duplicate-ii" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/04hashtable/04-454-4sum-ii" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/04hashtable/03-001two-sum" />
+        <item itemvalue="Go Build.go build bilibili/arithmetic/04hashtable/02-350intersection-of-two-arrays-ii" />
         <item itemvalue="Go Build.go build bilibili/arithmetic/04hashtable/01-349intersection-of-two-arrays" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/02array/15-438find-all-anagrams-in-a-string" />
-        <item itemvalue="Go Build.go build bilibili/arithmetic/03string/03-242valid-anagram" />
-        <item itemvalue="Go Build.go build bilibili/test/424" />
       </list>
     </recent_temporary>
   </component>
@@ -192,17 +192,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="others" />
-    <MESSAGE value="优化" />
-    <MESSAGE value="验证字符串是否是回文串。" />
-    <MESSAGE value="用golang实现strStr" />
-    <MESSAGE value="leetcode 209 滑动窗口。" />
-    <MESSAGE value="threeSum" />
-    <MESSAGE value="three-sum 三数之和" />
-    <MESSAGE value="twosum用map实现." />
-    <MESSAGE value="two-sum" />
-    <MESSAGE value="add url" />
-    <MESSAGE value="leetcode286" />
     <MESSAGE value="录制slice视频的代码" />
     <MESSAGE value="defer,interface,escape" />
     <MESSAGE value="sortColors 三路快排" />
@@ -216,7 +205,19 @@
     <MESSAGE value="438找出所有异位词。滑动窗口。" />
     <MESSAGE value="fix值为&quot;abab&quot;和&quot;ab&quot;时的边界问题。（只返回[0,1])。" />
     <MESSAGE value="算法目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法目录" />
+    <MESSAGE value="349优化。350【排序加滑动窗口】解决和用【map】解决。" />
+    <MESSAGE value="改名称" />
+    <MESSAGE value="349视频录制代码。" />
+    <MESSAGE value="【map】leetcode350" />
+    <MESSAGE value="【map】leetcode350视频录制。" />
+    <MESSAGE value="【map】leetcode001" />
+    <MESSAGE value="【map】leetcode001视频录制代码。" />
+    <MESSAGE value="【hashtable】leetcode454四数之和之数量" />
+    <MESSAGE value="【hashtable】leetcode454求四数之和为0的数量的视频录制代码。" />
+    <MESSAGE value="【map】【滑动窗口】leetcode219是否包含重复元素。" />
+    <MESSAGE value="【暴力搜索法】" />
+    <MESSAGE value="【暴力解法】leetcode220" />
+    <option name="LAST_COMMIT_MESSAGE" value="【暴力解法】leetcode220" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -235,7 +236,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06-349intersection-of-two-arrays-ii.go</url>
+          <url>file://$PROJECT_DIR$/arithmetic/02array/06-350intersection-of-two-arrays-ii/06-350intersection-of-two-arrays-ii.go</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -325,9 +326,9 @@
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/arithmetic/04hashtable/01-349intersection-of-two-arrays/01-349intersection-of-two-arrays.go</url>
-          <line>56</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$PROJECT_DIR$/arithmetic/02array/09-001two-sum/09two-sum.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
